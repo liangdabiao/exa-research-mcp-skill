@@ -7,6 +7,8 @@
 这不是传统的软件应用程序，而是一个专门的研究工具，通过 Claude Code 的技能系统和代理架构，利用 Exa 的高级网络搜索能力进行公司情报、竞争对手分析和市场研究。
 参考来源： https://exa.ai/docs/reference/company-research-claude-skill
 
+github地址：https://github.com/liangdabiao/exa-research-mcp-skill 
+
 ## 核心特性
 
 - **智能公司研究**: 自动收集公司信息、新闻、社交媒体动态、财务数据和 LinkedIn 资料
