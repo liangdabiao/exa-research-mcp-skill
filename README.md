@@ -6,8 +6,11 @@
 
 这不是传统的软件应用程序，而是一个专门的研究工具，通过 Claude Code 的技能系统和代理架构，利用 Exa 的高级网络搜索能力进行公司情报、竞争对手分析和市场研究。
 参考来源： https://exa.ai/docs/reference/company-research-claude-skill
+https://github.com/Suibosama/effective-harnesses
+https://github.com/SamuelQZQ/auto-coding-agent-demo
 
 github地址：https://github.com/liangdabiao/exa-research-mcp-skill 
+
 
 ## 核心特性
 
@@ -35,12 +38,13 @@ github地址：https://github.com/liangdabiao/exa-research-mcp-skill
 
 项目根目录 cmd 命令：
 
-```
-claude mcp add --transport http exa "https://mcp.exa.ai/mcp?tools=web_search_advanced_exa"
+``` 
+
+claude mcp add --transport http exa https://mcp.exa.ai/mcp
 
 ```
 然后打开 claude code 进入，则可以使用。
-
+https://exa.ai/docs/reference/exa-mcp
 
 ### 触发研究技能
 
@@ -52,6 +56,13 @@ claude mcp add --transport http exa "https://mcp.exa.ai/mcp?tools=web_search_adv
 "找到中国前 20 家激光切割设备制造商"
 "收集某公司的最新新闻报道"
 ```
+
+通过以下方法进行全自动化深度规划调研，触发`harnesses` 和 `company-research` 技能：
+
+```
+❯ 使用 effective-harnesses 初始化项目 :  exa mcp 深度调研 马来西亚的中国相关公司业务情况
+```
+
 
 ### 搜索参数
 
