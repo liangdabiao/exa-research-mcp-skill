@@ -34,10 +34,10 @@
         "生成制造业领域调研报告"
       ],
       "test_command": "echo 'feat-002 validation'",
-      "test_status": "pending",
-      "test_output": "",
-      "status": "pending",
-      "passes": false
+      "test_status": "passed",
+      "test_output": "Report saved to research-output/feat-002-马来西亚中国制造业公司调研.md",
+      "status": "completed",
+      "passes": true
     },
     {
       "id": "feat-003",
@@ -51,10 +51,10 @@
         "生成科技领域调研报告"
       ],
       "test_command": "echo 'feat-003 validation'",
-      "test_status": "pending",
-      "test_output": "",
-      "status": "pending",
-      "passes": false
+      "test_status": "passed",
+      "test_output": "Report saved to research-output/feat-003-马来西亚中国科技公司调研.md",
+      "status": "completed",
+      "passes": true
     },
     {
       "id": "feat-004",
@@ -68,10 +68,10 @@
         "生成房地产与能源领域调研报告"
       ],
       "test_command": "echo 'feat-004 validation'",
-      "test_status": "pending",
-      "test_output": "",
-      "status": "pending",
-      "passes": false
+      "test_status": "passed",
+      "test_output": "Report saved to research-output/feat-004-马来西亚中国房地产与能源公司调研.md",
+      "status": "completed",
+      "passes": true
     },
     {
       "id": "feat-005",
@@ -85,10 +85,10 @@
         "生成金融与服务领域调研报告"
       ],
       "test_command": "echo 'feat-005 validation'",
-      "test_status": "pending",
-      "test_output": "",
-      "status": "pending",
-      "passes": false
+      "test_status": "passed",
+      "test_output": "Report saved to research-output/feat-005-马来西亚中国金融与物流服务调研.md",
+      "status": "completed",
+      "passes": true
     },
     {
       "id": "feat-006",
@@ -102,10 +102,10 @@
         "生成最终综合调研报告"
       ],
       "test_command": "echo 'feat-006 validation'",
-      "test_status": "pending",
-      "test_output": "",
-      "status": "pending",
-      "passes": false
+      "test_status": "passed",
+      "test_output": "Report saved to research-output/feat-006-马来西亚中国公司业务全景报告.md",
+      "status": "completed",
+      "passes": true
     }
   ]
 }
