@@ -1,15 +1,15 @@
 {
   "version": "1.1",
-  "project": "越南中国相关公司业务深度调研",
-  "description": "使用 Exa MCP 对越南的中国相关公司进行系统性调研，涵盖基建、制造、科技、房地产、能源、金融等多个行业领域",
+  "project": "巴西中国相关公司业务深度调研",
+  "description": "使用 Exa MCP 对巴西的中国相关公司进行系统性调研",
   "test_command": "echo 'Research output validation'",
   "created": "2026-04-10",
   "features": [
-    {"id":"feat-001","category":"functional","priority":1,"description":"调研越南中国基建公司","steps":["搜索基建公司及项目","分析合作模式","整理投资数据","生成报告"],"test_command":"echo 'feat-001'","test_status":"passed","test_output":"Report saved to research-output/vietnam/feat-001-越南中国基建公司调研.md","status":"completed","passes":true},
-    {"id":"feat-002","category":"functional","priority":2,"description":"调研越南中国制造业公司","steps":["搜索制造企业","分析产业链转移","梳理产能数据","生成报告"],"test_command":"echo 'feat-002'","test_status":"passed","test_output":"Report saved to research-output/vietnam/feat-002-越南中国制造业公司调研.md","status":"completed","passes":true},
-    {"id":"feat-003","category":"functional","priority":3,"description":"调研越南中国科技公司","steps":["搜索科技公司布局","分析市场竞争","研究5G/AI","生成报告"],"test_command":"echo 'feat-003'","test_status":"passed","test_output":"Report saved to research-output/vietnam/feat-003-越南中国科技公司调研.md","status":"completed","passes":true},
-    {"id":"feat-004","category":"functional","priority":4,"description":"调研越南中国房地产与能源公司","steps":["搜索房地产/能源项目","分析政策风险","生成报告"],"test_command":"echo 'feat-004'","test_status":"passed","test_output":"Report saved to research-output/vietnam/feat-004-越南中国房地产与能源公司调研.md","status":"completed","passes":true},
-    {"id":"feat-005","category":"functional","priority":5,"description":"调研越南中国金融与物流服务","steps":["搜索金融机构","分析物流网络","研究双边贸易","生成报告"],"test_command":"echo 'feat-005'","test_status":"passed","test_output":"Report saved to research-output/vietnam/feat-005-越南中国金融与物流服务调研.md","status":"completed","passes":true},
-    {"id":"feat-006","category":"functional","priority":6,"description":"汇总生成越南中国公司业务全景报告","steps":["整合报告","三国对比","风险分析","生成综合报告"],"test_command":"echo 'feat-006'","test_status":"passed","test_output":"Report saved to research-output/vietnam/feat-006-越南中国公司业务全景报告.md","status":"completed","passes":true}
+    {"id":"feat-001","category":"functional","priority":1,"description":"调研巴西中国基建公司","test_command":"echo 'feat-001'","test_status":"passed","test_output":"Report saved to research-output/brazil/feat-001-巴西中国基建公司调研.md","status":"completed","passes":true},
+    {"id":"feat-002","category":"functional","priority":2,"description":"调研巴西中国制造业公司","test_command":"echo 'feat-002'","test_status":"passed","test_output":"Report saved to research-output/brazil/feat-002-巴西中国制造业公司调研.md","status":"completed","passes":true},
+    {"id":"feat-003","category":"functional","priority":3,"description":"调研巴西中国科技公司","test_command":"echo 'feat-003'","test_status":"passed","test_output":"Report saved to research-output/brazil/feat-003-巴西中国科技公司调研.md","status":"completed","passes":true},
+    {"id":"feat-004","category":"functional","priority":4,"description":"调研巴西中国能源矿业农业","test_command":"echo 'feat-004'","test_status":"passed","test_output":"Report saved to research-output/brazil/feat-004-巴西中国能源矿业农业调研.md","status":"completed","passes":true},
+    {"id":"feat-005","category":"functional","priority":5,"description":"调研巴西中国金融与物流服务","test_command":"echo 'feat-005'","test_status":"passed","test_output":"Report saved to research-output/brazil/feat-005-巴西中国金融与物流服务调研.md","status":"completed","passes":true},
+    {"id":"feat-006","category":"functional","priority":6,"description":"汇总生成巴西中国公司业务全景报告","test_command":"echo 'feat-006'","test_status":"passed","test_output":"Report saved to research-output/brazil/feat-006-巴西中国公司业务全景报告.md","status":"completed","passes":true}
   ]
 }
