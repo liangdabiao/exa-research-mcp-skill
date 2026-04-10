@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "project": "马来西亚中国相关公司业务深度调研",
-  "description": "使用 Exa MCP 对马来西亚的中国相关公司进行系统性调研，涵盖基建、制造、科技、房地产、能源等多个行业领域",
+  "project": "新加坡中国相关公司业务深度调研",
+  "description": "使用 Exa MCP 对新加坡的中国相关公司进行系统性调研，涵盖基建、制造、科技、房地产、能源、金融等多个行业领域",
   "test_command": "echo 'Research output validation'",
   "created": "2026-04-10",
   "features": [
@@ -9,16 +9,16 @@
       "id": "feat-001",
       "category": "functional",
       "priority": 1,
-      "description": "调研马来西亚中国基础设施建设公司（中交建、中国铁建、中国中铁等）的项目布局、合作模式与战略影响",
+      "description": "调研新加坡中国基础设施建设公司（中建、中交建等）的项目布局与合作模式",
       "steps": [
-        "搜索马来西亚主要中资基建公司及其在建/已建项目",
-        "分析一带一路框架下的基建合作模式",
-        "整理各公司业务规模、投资金额、项目类型",
+        "搜索新加坡主要中资基建公司及其项目",
+        "分析基建合作模式与战略影响",
+        "整理各公司业务规模与投资数据",
         "生成基建领域调研报告"
       ],
       "test_command": "echo 'feat-001 validation'",
       "test_status": "passed",
-      "test_output": "Report saved to research-output/feat-001-马来西亚中国基建公司调研.md",
+      "test_output": "Report saved to research-output/singapore/feat-001-新加坡中国基建公司调研.md",
       "status": "completed",
       "passes": true
     },
@@ -26,16 +26,16 @@
       "id": "feat-002",
       "category": "functional",
       "priority": 2,
-      "description": "调研马来西亚中国制造业公司（电子制造、钢铁、纺织等）的投资布局、产能规模与市场地位",
+      "description": "调研新加坡中国制造业公司（半导体、精密工程、新能源等）的投资布局与产能规模",
       "steps": [
-        "搜索马来西亚中资制造企业的投资与运营情况",
-        "分析产业链转移趋势与投资动因",
+        "搜索新加坡中资制造企业的投资与运营情况",
+        "分析产业链布局与投资动因",
         "梳理主要企业的产能、营收与雇员规模",
         "生成制造业领域调研报告"
       ],
       "test_command": "echo 'feat-002 validation'",
       "test_status": "passed",
-      "test_output": "Report saved to research-output/feat-002-马来西亚中国制造业公司调研.md",
+      "test_output": "Report saved to research-output/singapore/feat-002-新加坡中国制造业公司调研.md",
       "status": "completed",
       "passes": true
     },
@@ -43,16 +43,16 @@
       "id": "feat-003",
       "category": "functional",
       "priority": 3,
-      "description": "调研马来西亚中国科技与互联网公司（华为、字节跳动、腾讯、阿里等）的业务拓展、产品本地化与市场竞争",
+      "description": "调研新加坡中国科技与互联网公司（TikTok、华为、腾讯、阿里、字节跳动、Shein、Temu等）的业务拓展与市场竞争",
       "steps": [
-        "搜索马来西亚中资科技公司的产品与服务布局",
+        "搜索新加坡中资科技公司的产品与服务布局",
         "分析本地化策略与市场竞争格局",
         "研究数据中心、云计算、AI等新领域投资",
         "生成科技领域调研报告"
       ],
       "test_command": "echo 'feat-003 validation'",
       "test_status": "passed",
-      "test_output": "Report saved to research-output/feat-003-马来西亚中国科技公司调研.md",
+      "test_output": "Report saved to research-output/singapore/feat-003-新加坡中国科技公司调研.md",
       "status": "completed",
       "passes": true
     },
@@ -60,16 +60,16 @@
       "id": "feat-004",
       "category": "functional",
       "priority": 4,
-      "description": "调研马来西亚中国房地产与能源公司（碧桂园、绿地、国家电网、中广核等）的项目开发、投资规模与政策风险",
+      "description": "调研新加坡中国房地产与能源公司（万科、碧桂园、凯德中国、光伏储能等）的项目开发与投资规模",
       "steps": [
-        "搜索马来西亚中资房地产项目（如森林城市等）现状",
-        "分析能源领域投资（光伏、水电、电网）",
-        "评估政策与监管环境对投资的影响",
+        "搜索新加坡中资房地产项目现状",
+        "分析能源领域投资（光伏、储能、氢能）",
+        "评估政策与监管环境的影响",
         "生成房地产与能源领域调研报告"
       ],
       "test_command": "echo 'feat-004 validation'",
       "test_status": "passed",
-      "test_output": "Report saved to research-output/feat-004-马来西亚中国房地产与能源公司调研.md",
+      "test_output": "Report saved to research-output/singapore/feat-004-新加坡中国房地产与能源公司调研.md",
       "status": "completed",
       "passes": true
     },
@@ -77,16 +77,16 @@
       "id": "feat-005",
       "category": "functional",
       "priority": 5,
-      "description": "调研马来西亚中国金融与服务公司（中国银行、工商银行、中远海运等）的业务拓展、市场份额与双边贸易支持",
+      "description": "调研新加坡中国金融与物流服务公司（中行、工行、中远海运、菜鸟等）的业务拓展与双边贸易支持",
       "steps": [
-        "搜索马来西亚中资金融机构的业务布局",
+        "搜索新加坡中资金融机构的业务布局",
         "分析物流与航运服务网络",
         "研究双边贸易与投资促进机制",
         "生成金融与服务领域调研报告"
       ],
       "test_command": "echo 'feat-005 validation'",
       "test_status": "passed",
-      "test_output": "Report saved to research-output/feat-005-马来西亚中国金融与物流服务调研.md",
+      "test_output": "Report saved to research-output/singapore/feat-005-新加坡中国金融与物流服务调研.md",
       "status": "completed",
       "passes": true
     },
@@ -94,7 +94,7 @@
       "id": "feat-006",
       "category": "functional",
       "priority": 6,
-      "description": "汇总调研成果，生成马来西亚中国公司业务全景报告，包含行业分布、投资趋势、风险分析与战略建议",
+      "description": "汇总调研成果，生成新加坡中国公司业务全景报告，包含行业分布、投资趋势、风险分析与战略建议",
       "steps": [
         "整合各领域调研报告",
         "分析跨行业趋势与共性特征",
@@ -103,7 +103,7 @@
       ],
       "test_command": "echo 'feat-006 validation'",
       "test_status": "passed",
-      "test_output": "Report saved to research-output/feat-006-马来西亚中国公司业务全景报告.md",
+      "test_output": "Report saved to research-output/singapore/feat-006-新加坡中国公司业务全景报告.md",
       "status": "completed",
       "passes": true
     }
