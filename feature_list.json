@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "project": "新加坡中国相关公司业务深度调研",
-  "description": "使用 Exa MCP 对新加坡的中国相关公司进行系统性调研，涵盖基建、制造、科技、房地产、能源、金融等多个行业领域",
+  "project": "越南中国相关公司业务深度调研",
+  "description": "使用 Exa MCP 对越南的中国相关公司进行系统性调研，涵盖基建、制造、科技、房地产、能源、金融等多个行业领域",
   "test_command": "echo 'Research output validation'",
   "created": "2026-04-10",
   "features": [
@@ -9,103 +9,49 @@
       "id": "feat-001",
       "category": "functional",
       "priority": 1,
-      "description": "调研新加坡中国基础设施建设公司（中建、中交建等）的项目布局与合作模式",
-      "steps": [
-        "搜索新加坡主要中资基建公司及其项目",
-        "分析基建合作模式与战略影响",
-        "整理各公司业务规模与投资数据",
-        "生成基建领域调研报告"
-      ],
-      "test_command": "echo 'feat-001 validation'",
-      "test_status": "passed",
-      "test_output": "Report saved to research-output/singapore/feat-001-新加坡中国基建公司调研.md",
-      "status": "completed",
-      "passes": true
+      "description": "调研越南中国基础设施建设公司（中建、中交建、中铁等）的项目布局与合作模式",
+      "steps": ["搜索越南主要中资基建公司及其项目","分析基建合作模式","整理各公司业务规模与投资数据","生成基建领域调研报告"],
+      "test_command": "echo 'feat-001 validation'", "test_status": "pending", "test_output": "", "status": "pending", "passes": false
     },
     {
       "id": "feat-002",
       "category": "functional",
       "priority": 2,
-      "description": "调研新加坡中国制造业公司（半导体、精密工程、新能源等）的投资布局与产能规模",
-      "steps": [
-        "搜索新加坡中资制造企业的投资与运营情况",
-        "分析产业链布局与投资动因",
-        "梳理主要企业的产能、营收与雇员规模",
-        "生成制造业领域调研报告"
-      ],
-      "test_command": "echo 'feat-002 validation'",
-      "test_status": "passed",
-      "test_output": "Report saved to research-output/singapore/feat-002-新加坡中国制造业公司调研.md",
-      "status": "completed",
-      "passes": true
+      "description": "调研越南中国制造业公司（电子、纺织、鞋业、新能源等）的投资布局与产能规模",
+      "steps": ["搜索越南中资制造企业的投资与运营情况","分析产业链转移趋势","梳理主要企业的产能与雇员规模","生成制造业领域调研报告"],
+      "test_command": "echo 'feat-002 validation'", "test_status": "pending", "test_output": "", "status": "pending", "passes": false
     },
     {
       "id": "feat-003",
       "category": "functional",
       "priority": 3,
-      "description": "调研新加坡中国科技与互联网公司（TikTok、华为、腾讯、阿里、字节跳动、Shein、Temu等）的业务拓展与市场竞争",
-      "steps": [
-        "搜索新加坡中资科技公司的产品与服务布局",
-        "分析本地化策略与市场竞争格局",
-        "研究数据中心、云计算、AI等新领域投资",
-        "生成科技领域调研报告"
-      ],
-      "test_command": "echo 'feat-003 validation'",
-      "test_status": "passed",
-      "test_output": "Report saved to research-output/singapore/feat-003-新加坡中国科技公司调研.md",
-      "status": "completed",
-      "passes": true
+      "description": "调研越南中国科技与互联网公司（TikTok、华为、小米、OPPO、Vivo、跨境电商等）的业务拓展与市场竞争",
+      "steps": ["搜索越南中资科技公司的产品与服务布局","分析本地化策略与市场竞争","研究数据中心与电商业务","生成科技领域调研报告"],
+      "test_command": "echo 'feat-003 validation'", "test_status": "pending", "test_output": "", "status": "pending", "passes": false
     },
     {
       "id": "feat-004",
       "category": "functional",
       "priority": 4,
-      "description": "调研新加坡中国房地产与能源公司（万科、碧桂园、凯德中国、光伏储能等）的项目开发与投资规模",
-      "steps": [
-        "搜索新加坡中资房地产项目现状",
-        "分析能源领域投资（光伏、储能、氢能）",
-        "评估政策与监管环境的影响",
-        "生成房地产与能源领域调研报告"
-      ],
-      "test_command": "echo 'feat-004 validation'",
-      "test_status": "passed",
-      "test_output": "Report saved to research-output/singapore/feat-004-新加坡中国房地产与能源公司调研.md",
-      "status": "completed",
-      "passes": true
+      "description": "调研越南中国房地产与能源公司（万科、碧桂园、光伏储能等）的项目开发与投资规模",
+      "steps": ["搜索越南中资房地产项目现状","分析能源领域投资","评估政策与监管环境影响","生成房地产与能源领域调研报告"],
+      "test_command": "echo 'feat-004 validation'", "test_status": "pending", "test_output": "", "status": "pending", "passes": false
     },
     {
       "id": "feat-005",
       "category": "functional",
       "priority": 5,
-      "description": "调研新加坡中国金融与物流服务公司（中行、工行、中远海运、菜鸟等）的业务拓展与双边贸易支持",
-      "steps": [
-        "搜索新加坡中资金融机构的业务布局",
-        "分析物流与航运服务网络",
-        "研究双边贸易与投资促进机制",
-        "生成金融与服务领域调研报告"
-      ],
-      "test_command": "echo 'feat-005 validation'",
-      "test_status": "passed",
-      "test_output": "Report saved to research-output/singapore/feat-005-新加坡中国金融与物流服务调研.md",
-      "status": "completed",
-      "passes": true
+      "description": "调研越南中国金融与物流服务公司（中行、工行、中远海运、菜鸟等）的业务拓展与双边贸易支持",
+      "steps": ["搜索越南中资金融机构的业务布局","分析物流与航运服务网络","研究双边贸易与投资促进","生成金融与服务领域调研报告"],
+      "test_command": "echo 'feat-005 validation'", "test_status": "pending", "test_output": "", "status": "pending", "passes": false
     },
     {
       "id": "feat-006",
       "category": "functional",
       "priority": 6,
-      "description": "汇总调研成果，生成新加坡中国公司业务全景报告，包含行业分布、投资趋势、风险分析与战略建议",
-      "steps": [
-        "整合各领域调研报告",
-        "分析跨行业趋势与共性特征",
-        "评估地缘政治与政策风险",
-        "生成最终综合调研报告"
-      ],
-      "test_command": "echo 'feat-006 validation'",
-      "test_status": "passed",
-      "test_output": "Report saved to research-output/singapore/feat-006-新加坡中国公司业务全景报告.md",
-      "status": "completed",
-      "passes": true
+      "description": "汇总调研成果，生成越南中国公司业务全景报告",
+      "steps": ["整合各领域调研报告","分析跨行业趋势","评估风险与战略建议","生成综合调研报告"],
+      "test_command": "echo 'feat-006 validation'", "test_status": "pending", "test_output": "", "status": "pending", "passes": false
     }
   ]
 }
