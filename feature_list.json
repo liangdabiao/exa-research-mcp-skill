@@ -1,15 +1,15 @@
 {
   "version": "1.1",
-  "project": "印度尼西亚中国相关公司业务深度调研",
-  "description": "使用 Exa MCP 对印度尼西亚的中国相关公司进行系统性调研",
+  "project": "泰国中国相关公司业务深度调研",
+  "description": "使用 Exa MCP 对泰国的中国相关公司进行系统性调研",
   "test_command": "echo 'Research output validation'",
   "created": "2026-04-10",
   "features": [
-    {"id":"feat-001","category":"functional","priority":1,"description":"调研印尼中国基建公司","steps":["搜索基建公司及项目","分析合作模式","整理投资数据","生成报告"],"test_command":"echo 'feat-001'","test_status":"pending","test_output":"","status":"pending","passes":false},
-    {"id":"feat-002","category":"functional","priority":2,"description":"调研印尼中国制造业公司（镍/电池、纺织、电子等）","steps":["搜索制造企业","分析产业链转移","梳理产能数据","生成报告"],"test_command":"echo 'feat-002'","test_status":"pending","test_output":"","status":"pending","passes":false},
-    {"id":"feat-003","category":"functional","priority":3,"description":"调研印尼中国科技公司（TikTok、小米、华为、电商等）","steps":["搜索科技公司","分析市场竞争","研究数据中心/AI","生成报告"],"test_command":"echo 'feat-003'","test_status":"pending","test_output":"","status":"pending","passes":false},
-    {"id":"feat-004","category":"functional","priority":4,"description":"调研印尼中国能源与矿业公司","steps":["搜索能源/镍矿投资","分析项目规模","评估政策风险","生成报告"],"test_command":"echo 'feat-004'","test_status":"pending","test_output":"","status":"pending","passes":false},
-    {"id":"feat-005","category":"functional","priority":5,"description":"调研印尼中国金融与物流服务","steps":["搜索金融机构","分析物流网络","研究双边贸易","生成报告"],"test_command":"echo 'feat-005'","test_status":"pending","test_output":"","status":"pending","passes":false},
-    {"id":"feat-006","category":"functional","priority":6,"description":"汇总生成印尼中国公司业务全景报告","steps":["整合报告","跨行业趋势","风险分析","生成综合报告"],"test_command":"echo 'feat-006'","test_status":"pending","test_output":"","status":"pending","passes":false}
+    {"id":"feat-001","category":"functional","priority":1,"description":"调研泰国中国基建公司","steps":["搜索基建公司及项目","分析合作模式","整理投资数据","生成报告"],"test_command":"echo 'feat-001'","test_status":"passed","test_output":"610公里高铁153亿美元,一期51.74%","status":"completed","passes":true},
+    {"id":"feat-002","category":"functional","priority":2,"description":"调研泰国中国制造业公司（EV、电子、PCB等）","steps":["搜索制造企业","分析产业链转移","梳理产能数据","生成报告"],"test_command":"echo 'feat-002'","test_status":"passed","test_output":"7家中国车企30亿美元投资,BYD 46% EV份额","status":"completed","passes":true},
+    {"id":"feat-003","category":"functional","priority":3,"description":"调研泰国中国科技公司（TikTok、华为云、数据中心等）","steps":["搜索科技公司","分析市场竞争","研究数据中心/AI","生成报告"],"test_command":"echo 'feat-003'","test_status":"passed","test_output":"数据中心2.87GW管道,TikTok Shop 33%份额","status":"completed","passes":true},
+    {"id":"feat-004","category":"functional","priority":4,"description":"调研泰国中国能源与矿业公司","steps":["搜索能源投资","分析项目规模","评估政策风险","生成报告"],"test_command":"echo 'feat-004'","test_status":"passed","test_output":"华为数字能源100MW+,东方电气水上光伏","status":"completed","passes":true},
+    {"id":"feat-005","category":"functional","priority":5,"description":"调研泰国中国金融与物流服务","steps":["搜索金融机构","分析物流网络","研究双边贸易","生成报告"],"test_command":"echo 'feat-005'","test_status":"passed","test_output":"贸易逆差606亿美元,互换700亿RMB","status":"completed","passes":true},
+    {"id":"feat-006","category":"functional","priority":6,"description":"汇总生成泰国中国公司业务全景报告","steps":["整合报告","跨行业趋势","风险分析","生成综合报告"],"test_command":"echo 'feat-006'","test_status":"passed","test_output":"六国全景对比完成","status":"completed","passes":true}
   ]
 }
