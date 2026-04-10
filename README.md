@@ -6,11 +6,14 @@
 
 这不是传统的软件应用程序，而是一个专门的研究工具，通过 Claude Code 的技能系统和代理架构，利用 Exa 的高级网络搜索能力进行公司情报、竞争对手分析和市场研究。
 参考来源： https://exa.ai/docs/reference/company-research-claude-skill
+，
 https://github.com/Suibosama/effective-harnesses
+，
 https://github.com/SamuelQZQ/auto-coding-agent-demo
-
+，
 github地址：https://github.com/liangdabiao/exa-research-mcp-skill 
-
+，
+特别感谢：https://linux.do/
 
 ## 核心特性
 
