@@ -27,6 +27,13 @@ User Request → Company Research Skill → Task Agent → Exa Search → Distil
 - Finds company info, news, tweets, financials, LinkedIn profiles
 - Exa categories: `company`, `news`, `tweet`, `people`
 
+**foreign-trade-research** (`.claude/skills/foreign-trade-research/SKILL.md`):
+- 深度外贸市场调研，针对目标国家+产品领域进行全面竞争对手分析
+- 5步法：竞争格局识别 → 竞品深度拆解 → 对比矩阵 → 多源验证 → 报告生成
+- 覆盖品牌商（TOP7）、制造商（TOP7）、经销商（TOP6）
+- 输出完整调研报告（5000-8000字），含中国供应商进入策略建议
+- Exa categories: `company`, `news`, `tweet`, `people`
+
 ## Critical Skill Constraints
 
 When working with or modifying skills, follow these rules:

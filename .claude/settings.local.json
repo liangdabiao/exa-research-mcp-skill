@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "mcp__exa__web_search_advanced_exa"
+      "mcp__exa__web_search_advanced_exa",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "WebSearch",
+      "Bash(python3 -c \" import json, sys data = json.load\\(sys.stdin\\) for item in data[:10]: print\\('---RESULT---'\\) print\\('Title:', item.get\\('title',''\\)\\) print\\('URL:', item.get\\('url',''\\)\\) text = item.get\\('text',''\\)[:500] print\\('Text:', text\\) print\\(\\) \")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 *)"
     ]
   }
 }
