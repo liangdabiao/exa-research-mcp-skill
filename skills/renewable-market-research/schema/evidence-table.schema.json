@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V4 Conclusion Evidence Table",
+  "type": "object",
+  "required": [
+    "version",
+    "slug",
+    "items"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "conclusion",
+          "conclusionType",
+          "source",
+          "sourceGrade",
+          "directlyProves",
+          "confidence",
+          "relatedField",
+          "pendingVerificationAction"
+        ],
+        "properties": {
+          "conclusion": {
+            "type": "string"
+          },
+          "conclusionType": {
+            "enum": [
+              "fact",
+              "inference",
+              "estimate",
+              "judgment",
+              "pending"
+            ]
+          },
+          "source": {
+            "type": [
+              "string",
+              "object",
+              "array"
+            ]
+          },
+          "sourceGrade": {
+            "enum": [
+              "official",
+              "regulator",
+              "auction_document",
+              "grid_operator",
+              "mdb",
+              "owner_announcement",
+              "company_report",
+              "financial_report",
+              "research",
+              "media",
+              "database",
+              "other",
+              "unavailable"
+            ]
+          },
+          "directlyProves": {
+            "enum": [
+              "yes",
+              "partially",
+              "no"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "unknown"
+            ]
+          },
+          "relatedField": {
+            "type": "string"
+          },
+          "pendingVerificationAction": {
+            "type": "string"
+          },
+          "projectId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

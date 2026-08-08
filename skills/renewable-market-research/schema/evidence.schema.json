@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "url",
+    "title",
+    "publisher",
+    "confidence"
+  ],
+  "anyOf": [
+    {
+      "required": [
+        "accessed_at",
+        "source_type",
+        "collection_method",
+        "relevance_note"
+      ]
+    },
+    {
+      "required": [
+        "accessedAt",
+        "sourceType",
+        "collectionMethod",
+        "relevanceNote"
+      ]
+    }
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "published_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "accessed_at": {
+      "type": "string"
+    },
+    "accessedAt": {
+      "type": "string"
+    },
+    "source_type": {
+      "enum": [
+        "official",
+        "regulator",
+        "auction_document",
+        "grid_operator",
+        "mdb",
+        "owner_announcement",
+        "company_report",
+        "financial_report",
+        "research",
+        "media",
+        "database",
+        "other"
+      ]
+    },
+    "sourceType": {
+      "enum": [
+        "official",
+        "regulator",
+        "auction_document",
+        "grid_operator",
+        "mdb",
+        "owner_announcement",
+        "company_report",
+        "financial_report",
+        "research",
+        "media",
+        "database",
+        "other"
+      ]
+    },
+    "collection_method": {
+      "enum": [
+        "exa-search",
+        "exa-fetch",
+        "exa-deep-search",
+        "chrome-mcp",
+        "general-web-search",
+        "manual-file",
+        "other"
+      ]
+    },
+    "collectionMethod": {
+      "enum": [
+        "exa-search",
+        "exa-fetch",
+        "exa-deep-search",
+        "chrome-mcp",
+        "general-web-search",
+        "manual-file",
+        "other"
+      ]
+    },
+    "source_language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sourceLanguage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relevance_note": {
+      "type": "string"
+    },
+    "relevanceNote": {
+      "type": "string"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unknown"
+      ]
+    }
+  }
+}

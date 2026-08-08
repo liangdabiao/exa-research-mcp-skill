@@ -1,0 +1,16 @@
+interface:
+  display_name: "Renewable Market Research"
+  short_description: "Two-stage renewable market workflow with dynamic-frontier recall, ledger verification, and V4 full country wind-market status reports"
+  default_prompt: "Use $renewable-market-research to run a V4 renewable market workflow: generate the search plan, use the v4-heavy-chapter-agent profile for full reports, run bounded high-recall search-frontier rounds, verify/dedupe/reconcile the project ledger, write chapter-owned full report artifacts with required chapter verification, then produce the full report plus lite or executive outputs when needed."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "exa"
+      description: "Exa MCP server for semantic web/company/news/research/financial search when available"
+      transport: "streamable_http"
+      url: "https://mcp.exa.ai/mcp"
+    - type: "mcp"
+      value: "chrome-mcp"
+      description: "User-configured sanitized Chrome MCP for human-browser verification and dynamic pages"
+policy:
+  allow_implicit_invocation: true

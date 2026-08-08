@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V4 Project Card",
+  "type": "object",
+  "required": [
+    "projectId",
+    "basicInformation",
+    "ownerStructure",
+    "technicalPlan",
+    "commercialStructure",
+    "financingStructure",
+    "developmentFlow",
+    "engineeringSupplyChain",
+    "omArrangement",
+    "currentProgress",
+    "decisionChain",
+    "mingyangRelevance",
+    "risksAndConstraints",
+    "evidenceBoundary"
+  ],
+  "properties": {
+    "projectId": {
+      "type": "string"
+    },
+    "basicInformation": {
+      "type": "object",
+      "required": [
+        "projectName",
+        "capacityMW",
+        "location",
+        "stage",
+        "cod"
+      ]
+    },
+    "ownerStructure": {
+      "type": "object",
+      "required": [
+        "developer",
+        "spv",
+        "equity",
+        "governmentCounterparty"
+      ]
+    },
+    "technicalPlan": {
+      "type": "object",
+      "required": [
+        "oem",
+        "turbineModel",
+        "turbineCount",
+        "bess",
+        "transmissionLine"
+      ]
+    },
+    "commercialStructure": {
+      "type": "object",
+      "required": [
+        "ppa",
+        "offtaker",
+        "tariff",
+        "tenor",
+        "guarantee"
+      ]
+    },
+    "financingStructure": {
+      "type": "object",
+      "required": [
+        "totalInvestment",
+        "lenders",
+        "financialCloseStatus"
+      ]
+    },
+    "developmentFlow": {
+      "type": "object",
+      "required": [
+        "land",
+        "esia",
+        "interconnection",
+        "constructionPermit",
+        "electricityLicense"
+      ]
+    },
+    "engineeringSupplyChain": {
+      "type": "object",
+      "required": [
+        "epc",
+        "logistics",
+        "lifting",
+        "localizationRequirements"
+      ]
+    },
+    "omArrangement": {
+      "type": "object",
+      "required": [
+        "omParty",
+        "serviceTenor",
+        "spareParts",
+        "localServiceBase"
+      ]
+    },
+    "currentProgress": {
+      "type": "object",
+      "required": [
+        "latestEvent",
+        "nextNode",
+        "procurementWindow"
+      ]
+    },
+    "decisionChain": {
+      "type": "object",
+      "required": [
+        "decisionMaker",
+        "influencers",
+        "mdbGovernmentEpcRoles"
+      ]
+    },
+    "mingyangRelevance": {
+      "type": "object",
+      "required": [
+        "opportunityMW",
+        "relevanceRationale",
+        "pendingVerification"
+      ]
+    },
+    "risksAndConstraints": {
+      "type": "object",
+      "required": [
+        "grid",
+        "land",
+        "esg",
+        "financing",
+        "competition"
+      ]
+    },
+    "evidenceBoundary": {
+      "type": "object",
+      "required": [
+        "verifiedFacts",
+        "reasonableAssumptions",
+        "pendingVerification"
+      ]
+    }
+  }
+}

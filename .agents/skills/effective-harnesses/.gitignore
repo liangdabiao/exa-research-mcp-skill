@@ -1,0 +1,9 @@
+# 忽略临时文件和 IDE 配置
+*.tmp
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

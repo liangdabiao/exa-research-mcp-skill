@@ -1,0 +1,16 @@
+interface:
+  display_name: "Company Research"
+  short_description: "Exa-powered company and competitor research"
+  default_prompt: "Use $company-research to research a company, competitors, or market landscape with cited web sources."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "exa"
+      description: "Exa MCP server for advanced web/company/news/people search when available"
+      transport: "streamable_http"
+      url: "https://mcp.exa.ai/mcp"
+    - type: "mcp"
+      value: "chrome-mcp"
+      description: "User-configured sanitized Chrome MCP for human-browser verification and dynamic pages"
+policy:
+  allow_implicit_invocation: true

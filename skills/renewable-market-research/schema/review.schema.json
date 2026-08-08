@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Review",
+  "type": "object",
+  "required": [
+    "agent_name",
+    "task_scope",
+    "findings",
+    "evidence",
+    "confidence",
+    "uncertainty",
+    "rejected_claims",
+    "business_implications",
+    "next_questions"
+  ],
+  "properties": {
+    "agent_name": {
+      "type": "string"
+    },
+    "task_scope": {
+      "type": "string"
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "statement",
+          "evidence_ids",
+          "confidence",
+          "uncertainty"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "statement": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "unknown"
+            ]
+          },
+          "uncertainty": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "evidence.schema.json"
+      }
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unknown"
+      ]
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rejected_claims": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "business_implications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "implication",
+          "category"
+        ],
+        "properties": {
+          "implication": {
+            "type": "string"
+          },
+          "category": {
+            "enum": [
+              "sales_action",
+              "product_fit",
+              "risk_judgment",
+              "executive_decision",
+              "appendix_only"
+            ]
+          }
+        }
+      }
+    },
+    "next_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -7,7 +7,13 @@
       "WebSearch",
       "Bash(python3 -c \" import json, sys data = json.load\\(sys.stdin\\) for item in data[:10]: print\\('---RESULT---'\\) print\\('Title:', item.get\\('title',''\\)\\) print\\('URL:', item.get\\('url',''\\)\\) text = item.get\\('text',''\\)[:500] print\\('Text:', text\\) print\\(\\) \")",
       "Bash(python3 -c ' *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "mcp__chrome-mcp__*",
+      "mcp__chrome__*",
+      "Bash(pwsh *)",
+      "Bash(powershell *)",
+      "Bash(py *)",
+      "Bash(python *)"
     ]
   }
 }

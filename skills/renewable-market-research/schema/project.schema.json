@@ -1,0 +1,460 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project",
+  "type": "object",
+  "required": [
+    "project_name",
+    "country",
+    "technology",
+    "pipeline_bucket",
+    "confirmed_pipeline_eligible",
+    "evidence",
+    "confidence",
+    "uncertainty"
+  ],
+  "properties": {
+    "project_name": {
+      "type": "string"
+    },
+    "canonicalProjectId": {
+      "type": "string"
+    },
+    "canonical_project_id": {
+      "type": "string"
+    },
+    "canonicalName": {
+      "type": "string"
+    },
+    "canonical_name": {
+      "type": "string"
+    },
+    "nameVariants": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "name_variants": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "dedupeKey": {
+      "type": "string"
+    },
+    "dedupe_key": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "technology": {
+      "type": "string"
+    },
+    "capacity_mw": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "owner_developer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "coordinates": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "siteAreaHa": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "site_area_ha": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "cod_or_target_cod": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hubHeightM": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "hub_height_m": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "rotorDiameterM": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "rotor_diameter_m": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "bladeLengthM": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "blade_length_m": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "technologyRoute": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "technology_route": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "annualGenerationGWh": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "annual_generation_gwh": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "annualCO2ReductionTonnes": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "annual_co2_reduction_tonnes": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "jobsOrLocalEmployment": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "jobs_or_local_employment": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "biodiversityBirdProtection": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "biodiversity_bird_protection": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "communityLandImpact": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "community_land_impact": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "currentOemStatus": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "current_oem_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "oemShortlist": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "oem_shortlist": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "procurementWindow": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "procurement_window": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "decisionMaker": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "decision_maker": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "procurementInfluencers": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "procurement_influencers": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "likelyTenderRoute": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "likely_tender_route": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "bankabilityConstraint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "bankability_constraint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "salesEntryPoint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sales_entry_point": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "adjacentOpportunityImpact": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object"
+      }
+    },
+    "adjacent_opportunity_impact": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object"
+      }
+    },
+    "pipeline_bucket": {
+      "enum": [
+        "operational",
+        "under_construction",
+        "awarded_or_ppa_signed",
+        "financing_closed",
+        "official_pipeline",
+        "auction_target",
+        "mou_or_framework",
+        "early_stage",
+        "watchlist_unverified",
+        "rejected_or_duplicate"
+      ]
+    },
+    "evidence_level": {
+      "enum": [
+        "official",
+        "owner_confirmed",
+        "mdb_confirmed",
+        "grid_confirmed",
+        "auction_confirmed",
+        "media_only",
+        "unverified",
+        "conflicting"
+      ]
+    },
+    "confirmed_pipeline_eligible": {
+      "type": "boolean"
+    },
+    "exclusion_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "duplicate_check_notes": {
+      "type": "string"
+    },
+    "sourceTrace": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "source_trace": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "legalBasisRefs": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "legal_basis_refs": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "criticalFieldVerification": {
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "object",
+          "array",
+          "string"
+        ]
+      }
+    },
+    "critical_field_verification": {
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "object",
+          "array",
+          "string"
+        ]
+      }
+    },
+    "status_confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unknown"
+      ]
+    },
+    "capacity_confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unknown"
+      ]
+    },
+    "cod_confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unknown"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "evidence.schema.json"
+      }
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unknown"
+      ]
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

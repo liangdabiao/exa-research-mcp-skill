@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V4 Project Ledger",
+  "type": "object",
+  "required": [
+    "version",
+    "slug",
+    "projects"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "capacityReconciliation": {
+      "type": "object"
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "projectId",
+          "aliasGroupId",
+          "canonicalProjectName",
+          "capacityMW",
+          "opportunityMW",
+          "projectStage",
+          "statusBasis",
+          "countedInConfirmedCapacity",
+          "countedInOpportunityCapacity",
+          "sponsorOwner",
+          "spv",
+          "equityStructure",
+          "oem",
+          "procurementStatus",
+          "turbineModel",
+          "epc",
+          "omParty",
+          "financiers",
+          "ppaOfftaker",
+          "tariff",
+          "codTimeline",
+          "nextMilestone",
+          "decisionMaker",
+          "keyEvidence",
+          "fieldConfidence",
+          "pendingVerification",
+          "mingyangRelevance",
+          "mainRisks"
+        ],
+        "properties": {
+          "projectId": {
+            "type": "string"
+          },
+          "aliasGroupId": {
+            "type": "string"
+          },
+          "canonicalProjectName": {
+            "type": "string"
+          },
+          "projectAliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "capacityMW": {
+            "type": [
+              "number",
+              "string",
+              "null"
+            ]
+          },
+          "opportunityMW": {
+            "type": [
+              "number",
+              "string",
+              "null"
+            ]
+          },
+          "bess": {
+            "type": [
+              "string",
+              "object",
+              "null"
+            ]
+          },
+          "projectStage": {
+            "enum": [
+              "operational",
+              "under_construction",
+              "financing_closed",
+              "ppa_signed",
+              "decree_backed",
+              "tendering",
+              "mou_jda",
+              "watchlist",
+              "duplicate",
+              "rejected",
+              "unresolved",
+              "unavailable"
+            ]
+          },
+          "statusBasis": {
+            "type": "string"
+          },
+          "countedInConfirmedCapacity": {
+            "type": "boolean"
+          },
+          "countedInOpportunityCapacity": {
+            "type": "boolean"
+          },
+          "location": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sponsorOwner": {
+            "type": "string"
+          },
+          "spv": {
+            "type": "string"
+          },
+          "equityStructure": {
+            "type": "string"
+          },
+          "acquisitionRoute": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "oem": {
+            "type": "string"
+          },
+          "procurementStatus": {
+            "enum": [
+              "not_tendered",
+              "rfq",
+              "shortlisted",
+              "awarded",
+              "framework",
+              "undisclosed",
+              "pending_verification",
+              "unavailable"
+            ]
+          },
+          "turbineModel": {
+            "type": "string"
+          },
+          "epc": {
+            "type": "string"
+          },
+          "omParty": {
+            "type": "string"
+          },
+          "financiers": {
+            "type": [
+              "array",
+              "string"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "ppaOfftaker": {
+            "type": "string"
+          },
+          "tariff": {
+            "type": "string"
+          },
+          "codTimeline": {
+            "type": "string"
+          },
+          "nextMilestone": {
+            "type": "string"
+          },
+          "decisionMaker": {
+            "type": "string"
+          },
+          "influencers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "keyEvidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fieldConfidence": {
+            "type": "object"
+          },
+          "lastCheckedDate": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pendingVerification": {
+            "type": [
+              "array",
+              "string"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "mingyangRelevance": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "none",
+              "pending"
+            ]
+          },
+          "relevanceRationale": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mainRisks": {
+            "type": [
+              "array",
+              "string"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "sourceTrace": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    }
+  }
+}

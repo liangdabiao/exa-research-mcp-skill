@@ -1,0 +1,6 @@
+interface:
+  display_name: "Effective Harnesses"
+  short_description: "Long-running agent project planning harness"
+  default_prompt: "Use $effective-harnesses to initialize or maintain a feature-tracked long-running project."
+policy:
+  allow_implicit_invocation: true
